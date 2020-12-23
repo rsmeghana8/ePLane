@@ -6,7 +6,7 @@
 
 Training on custom dataset with (multi/unique class) of a Mask RCNN
 
-### Requirements (no specific version requirements)
+### Requirements (No specific version)
 ```
   python3
   pycocotools
@@ -44,5 +44,5 @@ Note: installation for mrcnn will be explained in the medium article linked in t
 ```https://drive.google.com/file/d/1RcFQPJhFOTE3P8c9akZILLSniahXvDqc/view?usp=sharing```
 
 ### Inference 
-- First Image is the original Image, second image is true Mask and the right one is the output
+- First Image is the original Image, Secondis the True Mask and the right image is the model generated output.
 ![](final.png)
