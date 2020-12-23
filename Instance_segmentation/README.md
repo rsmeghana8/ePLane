@@ -1,8 +1,8 @@
 # Custom_Train_MaskRCNN
 ![](https://img.shields.io/badge/<implementation>-<customtrain>-<success>)
 
-
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R5R11K2H4)
+### Reference
+```https://github.com/miki998/Custom_Train_MaskRCNN```
 
 Training on custom dataset with (multi/unique class) of a Mask RCNN
 
@@ -20,12 +20,18 @@ Training on custom dataset with (multi/unique class) of a Mask RCNN
 ```
 
 ### DataSet
+The images of iSAID is the same as the DOTA-v1.0 dataset, which are manily collected from the Google Earth, some are taken by satellite JL-1, the others are taken by satellite GF-2 of the China Centre for Resources Satellite Data and Application
+
+The object categories in iSAID include: plane, ship, storage tank, baseball diamond, tennis court, basketball court, ground track field, harbor, bridge, large vehicle, small vehicle, helicopter, roundabout, soccer ball field and swimming pool.
+The annotation follows the format of MS COCO.
+
 ```https://captain-whu.github.io/iSAID/dataset.html```
 
 ### Preprocessing the dataset
 ```https://github.com/CAPTAIN-WHU/iSAID_Devkit```
 
-Note: installation for mrcnn will be explained in the medium article linked in the repo.
+Note: installation for mrcnn will be explained in the medium article linked in the Original repo.
+
 ### Structure
 - dataset: folder where you put the train and val folders (read inside to know what to put)
 - logs: folder where we store the intermediate/checkpoints and final weights after training
@@ -33,10 +39,7 @@ Note: installation for mrcnn will be explained in the medium article linked in t
 - detect_segment_test.py: test script for the segmentation, displays mask on top of input image, usage given by --h argument
 - train.py: main script for this section, read medium article to know what to modify
 
-### Usage 
-First training usage, more options showed in the train.py script as comment:
-```
-   python3 train.py train --dataset=./dataset --weights=coco
-```
+
 ### Inference 
+- First Image is the original Image, second image is true Mask and the right one is the output
 ![](final.png)
