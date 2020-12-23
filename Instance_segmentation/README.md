@@ -19,6 +19,7 @@ Training on custom dataset with (multi/unique class) of a Mask RCNN
 
 ```
 
+
 ### DataSet
 The images of iSAID is the same as the DOTA-v1.0 dataset, which are manily collected from the Google Earth, some are taken by satellite JL-1, the others are taken by satellite GF-2 of the China Centre for Resources Satellite Data and Application
 
@@ -39,6 +40,8 @@ Note: installation for mrcnn will be explained in the medium article linked in t
 - detect_segment_test.py: test script for the segmentation, displays mask on top of input image, usage given by --h argument
 - train.py: main script for this section, read medium article to know what to modify
 
+### Pre-Tranined Model
+```https://drive.google.com/file/d/1RcFQPJhFOTE3P8c9akZILLSniahXvDqc/view?usp=sharing```
 
 ### Inference 
 - First Image is the original Image, second image is true Mask and the right one is the output
