@@ -16,7 +16,9 @@
 
 ## Training
 * Run `python train.py --data nyu --gpus 1 --bs 2`.
-
+* 
+ ## To Execute ROS
+  ```roslaunch monodepth all.launch```
 
 ### Inference
 
@@ -27,7 +29,8 @@ Model was trained on indoor images of NYU dataset for eight epochs. It is perfor
 - Models prediction on Image from Midair dataset
 ![](out1.png)
 
-
+- Visulalization in Rviz
+  ![](densedepth.gif)
 ## Reference
 
 ```https://github.com/ialhashim/DenseDepth```
