@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find monodepth)/launch/monodepth.launch" />
+    <include file="$(find video_stream_opencv)/launch/video_file.launch" />
+    <node pkg="rviz" name="rviz" type="rviz" args="-d $(find monodepth)/rviz/monodepth.rviz" />
+</launch>
