@@ -9,7 +9,7 @@
 
 
 ## Pre-trained Models
-* [NYU Depth V2](https://s3-eu-west-1.amazonaws.com/densedepth/nyu.h5) (165 MB)
+* [NYU Depth V2](https://drive.google.com/file/d/1-urfINl_aJI8TmmMBCAqoGtTLUG_0oHb/view?usp=sharing)
 
 ## Data
 * [NYU Depth V2 (50K)](https://tinyurl.com/nyu-data-zip) (4.1 GB): You don't need to extract the dataset since the code loads the entire zip file into memory when training.
