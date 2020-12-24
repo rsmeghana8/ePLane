@@ -30,7 +30,7 @@ Model was trained on indoor images of NYU dataset for eight epochs. It is perfor
 ![](out1.png)
 
 - Visulalization in Rviz
-![](densedepth.gif)
+![](Densedepthros.gif)
 ## Reference
 
 ```https://github.com/ialhashim/DenseDepth```
