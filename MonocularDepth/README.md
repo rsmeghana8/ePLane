@@ -16,7 +16,7 @@
 
 ## Training
 * Run `python train.py --data nyu --gpus 1 --bs 2`.
-* 
+
  ## To Execute ROS
   ```roslaunch monodepth all.launch```
 
@@ -30,6 +30,7 @@ Model was trained on indoor images of NYU dataset for eight epochs. It is perfor
 ![](out1.png)
 
 - Visulalization in Rviz
+
 ![](Densedepthros.gif)
 ## Reference
 
