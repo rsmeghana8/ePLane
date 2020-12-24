@@ -1,0 +1,4 @@
+__pycache__/
+devel/*
+build/*
+.catkin_workspace
